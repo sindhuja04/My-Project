@@ -1,0 +1,119 @@
+<!DOCTYPE HTML>
+<head>
+<title>Contact Page</title>
+<link rel="stylesheet" href="css/bootstrap.min.css" />
+<link rel="stylesheet" href="css/amelia-bootstrap.min.css"/>
+<link rel="stylesheet" href="css/master.css"/>
+</head>
+<body>
+<div id="page">
+<header class="container">
+<div id="menu" class="navbar navbar-default">
+   <div class="navbar-header">
+       <button class="btn btn-success navbar-toggle"  data-toggle="collapse" data-target=".navbar-collapse"><span class="glyphicon glyphicon-chevron-down"></span></button>
+  <div id="logo">
+<a href="#"><h1>My Project</h1></a>
+</div>
+</div>
+<div class="navbar-collapse collapse">
+
+<ul class="nav navbar-nav navbar-right">
+<li class="nav"><a href="#">Home</a></li>
+<li class="nav active"><a href="#">Contact</a></li>
+</ul>
+  </div>
+ </div>
+</header>
+<section id="body" class="container">
+
+<section id="main" class="col-md-8 col-sm-10">
+<div class="page-header">
+    <ol class="breadcrumb">
+        <li><a href="#">Home</a></li>
+        <li class="active">Contact Us</li>
+
+    </ol>
+<h1>Contact Us</h1>
+</div>
+
+    <div class="row">
+<form class="form-horizontal">
+<div class="form-group">	
+<label for="nameInput">Your Name</label>
+   
+<input type="text" name="nameInput" class="form-control" placeholder="Eg.: Your Name" />
+       
+</div>
+
+<div class="form-group">
+<label for="emailInput">Email ID</label>
+   
+<input type="text" name="emailInput" class="form-control" placeholder="Eg.: Your Email ID" />
+       
+</div>
+    <div class="form-group">
+    <label>Class</label>
+  
+   <div class="btn-group btn-group-sm">
+    
+    <label class="btn btn-primary">Class A</label>
+    <label class="btn btn-primary">Class B</label>
+       <div class="btn-group btn-group-sm">
+    <button class="btn btn-primary" data-toggle="dropdown">Others <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+        <li><a href="#">Class C</a></li>
+        <li><a href="#">Class D</a></li>
+        <li><a href="#">Class E</a></li>
+    </ul>
+</div>
+       </div>
+        </div>
+
+    <div class="dropdown">
+        <button class="btn btn-primary" id="pickone">Pick One..</button>
+        <button class="btn btn-primary" data-toggle="dropdown"><span class="caret"></span></button>
+        <ul class="dropdown-menu" id="menuoptions">
+            <li><a href="#">Music</a></li>
+            <li><a href="#">Dance</a></li>
+            <li><a href="#">Karate</a></li>
+        </ul>
+    </div>
+<div class="form-group">
+<label>Occupation</label>
+ <select class="form-control">
+<option>Engineer</option>
+<option>Doctor</option>
+<option>Others</option>
+</select>
+        
+</div>
+
+<div class="form-group">
+<label>Comments</label>
+   
+<textarea cols="40" rows="10" class="form-control" placeholder="Eg.: Your Message"></textarea>
+</div>
+<div class="form-group">
+<input type="submit" value="Submit" class="btn btn-primary"/>
+    </div>
+</form>
+        </div>
+</section>
+
+<section id="sidebar" class="col-md-4 col-sm-2">
+<h4>Contact Info</h4>
+<p>123 Main Street <br>
+XYZ, Bangalore-01</p>
+</section>
+
+</section>
+<footer class="container">
+<h6>All Rights Reserved</h6>
+</footer>
+</div>
+
+<script src="js/jquery-2.0.3.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/master.js"></script>
+</body>
+
